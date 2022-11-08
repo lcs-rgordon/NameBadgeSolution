@@ -16,19 +16,20 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .fontWeight(.black)
                 .foregroundColor(.white)
-                .padding(.top, 25)
             
             Text("my name is")
-                .frame(width: 300, height: 30)
+                .frame(height: 30)
                 .border(Color.blue)
                 .foregroundColor(.white)
                 .padding(.bottom, 10)
             
             Text("Russ")
-                .frame(height: 100)
+                .frame(width: 300, height: 100)
                 .border(Color.brown)
                 .font(Font.custom("MarkerFelt-Wide", size: 40))
+                .background(Color.white)
         }
+        .frame(height: 240)
         .border(Color.red)
         .background(Color.red)
         .padding()
