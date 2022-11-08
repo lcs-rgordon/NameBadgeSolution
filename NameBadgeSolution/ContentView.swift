@@ -13,14 +13,21 @@ struct ContentView: View {
             Text("HELLO")
                 .border(Color.green)
                 .frame(height: 40)
+                .font(.largeTitle)
+                .fontWeight(.black)
+                .foregroundColor(.white)
+                .padding(.top, 25)
             
             Text("my name is")
                 .frame(width: 300, height: 30)
                 .border(Color.blue)
+                .foregroundColor(.white)
+                .padding(.bottom, 10)
             
             Text("Russ")
                 .frame(height: 100)
                 .border(Color.brown)
+                .font(Font.custom("MarkerFelt-Wide", size: 40))
         }
         .border(Color.red)
         .background(Color.red)
