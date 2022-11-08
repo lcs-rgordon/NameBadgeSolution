@@ -11,10 +11,14 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("HELLO")
+                .border(Color.green)
             
             Text("my name is")
+                .frame(width: 300)
+                .border(Color.blue)
             
             Text("Russ")
+                .border(Color.brown)
         }
         .border(Color.red)
         .padding()
