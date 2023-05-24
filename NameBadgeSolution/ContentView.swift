@@ -11,7 +11,6 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("HELLO")
-//                .border(Color.green)
                 .frame(height: 40)
                 .font(.largeTitle)
                 .fontWeight(.black)
@@ -19,7 +18,6 @@ struct ContentView: View {
             
             Text("my name is")
                 .frame(height: 30)
-//                .border(Color.blue)
                 .foregroundColor(.white)
                 .padding(.bottom, 10)
             
